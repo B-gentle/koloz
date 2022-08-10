@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  font-family: grotesk-regular;
+}
+
+.koloz {
+  text-align: center;
+}
+
+section{
+  padding-left: 120px;
+}
+
+@font-face {
+  font-family: grotesk-regular;
+  src: url(fonts/static/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+  font-family: grotesk-bold ;
+  src: url(fonts/static/SpaceGrotesk-Bold.ttf);
+}

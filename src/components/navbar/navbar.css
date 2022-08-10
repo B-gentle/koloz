@@ -1,0 +1,26 @@
+.koloz .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: grotesk-regular;
+    padding: 30px 118px 0 0px;
+}
+
+.koloz .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.koloz .navbar ul li {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 2px;
+
+}
+
+.koloz .navbar ul li:hover{
+    border-bottom: 4px solid #FFB803;
+    transition: 0.2s ease all;
+    cursor: pointer;
+}

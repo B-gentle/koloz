@@ -1,0 +1,11 @@
+.gen-button{
+    background-color: #FFB803;
+    border-radius: 0 25px;
+    width: 180px;
+    height: 52px;
+    padding: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
