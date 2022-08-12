@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     font-family: grotesk-regular;
-    padding: 30px 118px 0 0px;
+    padding: 1.88rem 7.38rem 0 120px;
 }
 
 .koloz .navbar ul {
@@ -14,8 +14,8 @@
 
 .koloz .navbar ul li {
     font-weight: 400;
-    font-size: 20px;
-    padding: 2px;
+    font-size: 1.25rem;
+    padding: 0.125rem;
 
 }
 

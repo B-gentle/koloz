@@ -1,9 +1,0 @@
-.third-section{
-    display: flex;
-    flex-direction: column;
-}
-
-.third-section .third-section-fliersbox{
-    display: flex;
-    flex-direction: column;
-}

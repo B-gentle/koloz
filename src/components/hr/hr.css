@@ -1,0 +1,7 @@
+.hr hr {
+    height: 0.25rem;
+    background-color: #FFB803;
+    display: inline-block;
+    border: none;
+    margin: 0.625rem 0 0.19rem 0.5rem;
+}

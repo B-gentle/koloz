@@ -1,0 +1,78 @@
+.values {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.313rem;
+    padding-bottom: 7rem;
+}
+
+.values > span {
+    font-weight: 700;
+    color: #3A3A3ABF;
+}
+
+.values > span:nth-child(1) {
+    font-size: 1.25rem;
+}
+
+.values > span:nth-child(2) {
+    font-size: 2rem;
+    color: #3A3A3A;
+
+}
+
+.values > span:nth-child(3) hr:nth-child(1) {
+    width: 7.69rem;
+}
+
+.hr hr:nth-child(2) {
+    width: 1.63rem;
+}
+
+.values .values-fliersbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3.75rem;
+    gap: 2.813rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.values .values-fliersbox .values-fliers {
+    background-color: #7497CC1A;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 17.63rem;
+    height: 22.38rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.values-fliers span:nth-child(1) {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFB803;
+    background-color: #7497CC1A;
+    border-radius: 100%;
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem 6.313rem 1.5rem;
+}
+
+.values-fliers span:nth-child(2){
+    font-weight: 700;
+    color: #3A3A3A;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.values-fliers span:nth-child(3){
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3A3A3ABF;
+    line-height: 1.6;
+
+}

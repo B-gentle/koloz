@@ -1,0 +1,49 @@
+.about-us{
+    background-color: #7497CC1A;
+    margin-top: 5.94rem;
+    display: flex;
+    justify-content: space-between;
+    height: 29.9rem;
+    padding-left: 80px;
+}
+
+.about-us div:nth-child(1){
+    flex-basis: 24.3rem;
+    padding: auto;
+}
+
+.about-us div:nth-child(1) > img{
+    margin-top: 4.5rem;
+}
+
+.about-us div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30.38rem;
+    text-align: left;
+    padding-right: 7.5rem;
+}
+
+.about-us div:nth-child(2) span:nth-child(1){
+    color:#3A3A3A;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 4.5rem;
+}
+
+
+.about-us div:nth-child(2) span:nth-child(3){
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 2.625rem;
+    line-height: 1.9;
+}
+
+.about-hr hr:nth-child(1){
+    width: 6.19rem;
+}
+.hr hr:nth-child(2){
+    width: 1.63rem;
+}
+

@@ -1,0 +1,69 @@
+.contact-us {
+    display: flex;
+    gap: 128px;
+    background-color: #7497CC1A;
+}
+
+.contact-us form {
+    padding: 3rem 0 0 5rem;
+}
+
+.contact-us form input {
+    padding: 1rem;
+    width: 486px;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.contact-us form textarea {
+    width: 486px;
+    height: 259px;
+    padding: 1rem;
+    border: none;
+}
+
+.contact-button {
+    display: block;
+    margin: 70px auto 73px;
+}
+
+.contact-us > div {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact-us div span:nth-child(1) {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #3A3A3ABF;
+
+}
+
+.contact-us div span:nth-child(2) {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contact-us div span:nth-child(3) .hr{
+    display: flex;
+    gap: 8px;
+}
+
+.contact-us div span:nth-child(3) hr:nth-child(1) {
+    width: 123px;
+}
+
+.contact-us div span:nth-child(3) hr:nth-child(2) {
+    width: 26px;
+}
+
+.contact-us div span:nth-child(4) {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3A3A3ABF;
+    margin-top: 1.5rem;
+
+}

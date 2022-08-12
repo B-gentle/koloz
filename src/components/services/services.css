@@ -1,0 +1,78 @@
+.services {
+    background-color: #7497CC1A;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.25rem;
+}
+
+.services > span:nth-child(1){
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #3A3A3ABF;
+}
+
+.services > span:nth-child(2){
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 0.19rem;
+    color: #3A3A3A;
+}
+
+.services-hr{
+    display: inline;
+    margin-bottom: 3rem;
+}
+
+.services-hr hr:nth-child(1){
+width: 5.75rem;
+}
+
+.services-hr hr:nth-child(2){
+    width: 1.63rem;
+}
+
+.services-flierbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+    
+}
+
+.services-flierbox .services-flier{
+    background-color:#FFFFFF;
+    height: 23.13rem;
+    flex-basis: 17.63rem;
+    padding: 1rem;
+    box-shadow: 0px 0.25rem 1.88rem 0px #0000001A;
+
+}
+
+.services-flier span:nth-child(1){
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    border-radius: 100%;
+    background-color: #7497CC1A;
+    color: #FFB803;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.75rem 6.313rem 1.5rem;
+
+}
+
+.services-flier span:nth-child(2){
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-bottom: 1.5rem;
+}
+
+.services-flier span:nth-child(3){
+    font-weight: 25rem;
+    font-size: 1rem;
+    line-height: 1.7;
+}
