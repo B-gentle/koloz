@@ -2,6 +2,7 @@
     display: flex;
     gap: 128px;
     background-color: #7497CC1A;
+    padding: 1rem;
 }
 
 .contact-us form {
@@ -27,7 +28,7 @@
     margin: 70px auto 73px;
 }
 
-.contact-us > div {
+.contact-us>div {
     padding-top: 3rem;
     display: flex;
     flex-direction: column;
@@ -47,7 +48,7 @@
     font-size: 32px;
 }
 
-.contact-us div span:nth-child(3) .hr{
+.contact-us div span:nth-child(3) .hr {
     display: flex;
     gap: 8px;
 }
@@ -66,4 +67,20 @@
     color: #3A3A3ABF;
     margin-top: 1.5rem;
 
+}
+
+@media screen and (max-width: 580px) {
+    .contact-us {
+        flex-direction: column;
+    }
+
+    .contact-us form {
+        order: 1;
+        padding: 3rem 1rem 0;
+    }
+
+    .contact-us form input,
+    .contact-us form textarea {
+        width: 90%;
+    }
 }

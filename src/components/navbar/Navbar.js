@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import logo from './../../assets/logo.png';
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 const Navbar = () => {
     return (
@@ -17,6 +18,7 @@ const Navbar = () => {
                 <li>Gallery</li>
                 <li>Contact</li>
             </ul>
+            <span className='hamburger'><GiHamburgerMenu/></span>
         </nav>
         </section>
         

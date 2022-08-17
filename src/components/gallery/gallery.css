@@ -72,4 +72,14 @@
     margin: 5.69rem auto 5.4rem;
 }
 
+@media screen and (max-width:580px) {
+    .gallery-thumbnail img{
+        width: 90%;
+    }
+
+    .gallery-thumbnail p{
+        width: 70%;
+    }
+}
+
 

@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
-    flex-wrap: wrap;
     padding-left: 120px;
 }
 
@@ -25,4 +24,23 @@
 
 .first-section div:nth-child(1) p:nth-child(2){
     line-height: 1.4;
+}
+
+@media screen and (max-width:580px) {
+    .first-section{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .first-section div:nth-child(1){
+        order: 1;
+        width: 90%;
+    }
+
+    .first-section div:nth-child(2){
+        width: 90%;
+    }
+
+    .first-section div:nth-child(2) img{
+        width: 100%;
+    }
 }

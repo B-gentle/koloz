@@ -12,6 +12,10 @@
     gap: 2rem;
 }
 
+.hamburger{
+    display: none;
+}
+
 .koloz .navbar ul li {
     font-weight: 400;
     font-size: 1.25rem;
@@ -23,4 +27,24 @@
     border-bottom: 4px solid #FFB803;
     transition: 0.2s ease all;
     cursor: pointer;
+}
+
+@media screen and (max-width:580px) {
+
+    .koloz .navbar {
+        padding: 1.88rem 1rem 0;
+    }
+
+    .koloz .navbar div img{
+        transform: scale(0.7);
+    }
+
+    .koloz .navbar ul{
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        font-size: 2rem;
+    }
 }
