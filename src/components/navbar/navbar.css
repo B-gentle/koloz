@@ -12,6 +12,15 @@
     gap: 2rem;
 }
 
+.koloz .navbar ul div img{
+    width: 113px;
+    display: none;
+}
+
+ul .close{
+    display: none;
+}
+
 .hamburger{
     display: none;
 }
@@ -33,14 +42,55 @@
 
     .koloz .navbar {
         padding: 1.88rem 1rem 0;
+        position: relative;
     }
 
     .koloz .navbar div img{
-        transform: scale(0.7);
+        width: 126px;
     }
 
     .koloz .navbar ul{
-        display: none;
+        position: absolute;
+        top: -15rem;
+        left: -20rem;
+        flex-direction: column; 
+        gap: 3px;
+        text-align: left; 
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 273px;
+        padding-top: 1rem;
+        transition: all 0.5s ease;
+    }
+
+    .koloz .navbar ul li{
+        line-height: 1;
+        margin-top: 1.9rem;
+    }
+
+    .koloz .navbar ul.display{
+        position: absolute;
+         flex-direction: column; 
+        gap: 3px;
+        text-align: left; 
+        top: -0.5rem;
+        left: -2rem;
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 273px;
+        padding-top: 1rem;
+        transition: all 0.5s ease;
+    }
+
+    .koloz .navbar ul div img{
+        display: flex;
+    }
+    
+    ul .close{
+        display: flex;
+        position: absolute;
+        left: 17.6rem;
+        font-size: 1.8rem;
     }
 
     .hamburger{

@@ -61,6 +61,7 @@
 @media screen and (max-width:580px) {
     .footer{
         flex-direction: column;
+        gap: 2rem;
     }
 
     .footSection>p{

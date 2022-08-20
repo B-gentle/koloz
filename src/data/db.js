@@ -6,7 +6,7 @@ import { BiNews, BiPhotoAlbum } from "react-icons/bi";
 import { IoIosColorFilter } from "react-icons/io";
 import imgOne from "./../assets/gallery-1st-img.jpg";
 import imgTwo from "./../assets/gallery-2nd-img.png";
-import imgThree from "./../assets/gallery-3rd-img.jpg";
+import imgThree from "./../assets/gallery-3rd-img.png";
 import imgFour from "./../assets/gallery-4th-image.jpg";
 
 

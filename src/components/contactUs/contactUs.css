@@ -72,15 +72,30 @@
 @media screen and (max-width: 580px) {
     .contact-us {
         flex-direction: column;
+        gap: 1rem;
     }
 
     .contact-us form {
         order: 1;
-        padding: 3rem 1rem 0;
+        padding: 1rem 1rem 0;
     }
 
     .contact-us form input,
     .contact-us form textarea {
         width: 90%;
     }
+
+    .contact-us div span:nth-child(1) {
+        font-size: 1.125rem;
+    }
+
+    .contact-us div span:nth-child(2) {
+        font-size: 1.25rem;
+    }
+
+    .contact-button{
+        margin: 2.75rem auto 2rem;
+    }
+
+    
 }
