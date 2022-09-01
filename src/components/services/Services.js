@@ -11,7 +11,7 @@ const Services = () => {
             <span>What We Offer</span>
             <span className='services-hr'><Hr /></span>
             <span className='services-flierbox'>
-            {services && services.map((flier, id) => <span className='services-flier' key={id}><Fliers icon={<flier.icon />} title={flier.title} content={flier.content} /></span>)}
+            {services && services.map((flier, id) => <span className='services-flier' id={flier.link} key={id}><Fliers icon={<flier.icon />} title={flier.title} content={flier.content} /></span>)}
             </span>
             </section>
     )

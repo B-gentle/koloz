@@ -58,6 +58,10 @@
 
 }
 
+.quick-links, .footer-services{
+    cursor: pointer;
+}
+
 @media screen and (max-width:580px) {
     .footer{
         flex-direction: column;

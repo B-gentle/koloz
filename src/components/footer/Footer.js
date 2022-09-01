@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css';
 import logo from './../../assets/logo.png';
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 const Footer = () => {
 
@@ -28,20 +29,20 @@ const Footer = () => {
                 </div>
                 <div className='quick-links'>
                     <span>QUICK LINKS</span>
-                    <span>Home</span>
-                    <span>About</span>
-                    <span>Service</span>
-                    <span>Gallery</span>
-                    <span>Contact</span>
+                    <Link spy={true} to='navbar' smooth={true} activeClass='activeClass'>Home</Link>
+                    <Link spy={true} to='about-us' smooth={true} activeClass='activeClass'>About</Link>
+                    <Link spy={true} to='services' smooth={true} activeClass='activeClass'>Service</Link>
+                    <Link spy={true} to='gallery' smooth={true} activeClass='activeClass'>Gallery</Link>
+                    <Link spy={true} to='contact-us' smooth={true} activeClass='activeClass'>Contact</Link>
                 </div>
 
                 <div className='footer-services'>
-                    <span>SERVICES</span>
-                    <span>Graphics Design</span>
-                    <span>Products Designer</span>
-                    <span>Photography</span>
-                    <span>Illustration And Digital Arts</span>
-                    <span>Social Media Design</span>
+                <Link spy={true} to='services' smooth={true} activeClass='activeClass'><span>SERVICES</span></Link>
+                <Link spy={true} to='graphicsDesign' smooth={true}>Graphics Design</Link>
+                <Link spy={true} to='productDesign' smooth={true}>Products Designer</Link>
+                <Link spy={true} to='photography' smooth={true}>Photography</Link>
+                <Link spy={true} to='digitalArt' smooth={true}>Illustration And Digital Arts</Link>
+                <Link spy={true} to='contentWriting' smooth={true}>Social Media Design</Link>
                 </div>
 
                 <div className='footer-info'>

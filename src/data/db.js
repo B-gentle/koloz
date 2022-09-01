@@ -32,26 +32,31 @@ const shield1 = [{
 const services = [{
     icon: IoColorPaletteOutline,
     title: "Illustrator and Digital Art",
+    link: 'digitalArt',
     content: "Expresses an idea or concept using images. Koloz helps you create artworks that are visually appealing. Arts like NFTs, 3Ds, and 2Ds images and more."
 },
 {
     icon: IoIosColorFilter,
     title: "Product Design",
+    link: 'productDesign',
     content: "Koloz can create engaging and irresistible product designs which are easy to understand and navigate. This will help you achieve your set goals and to reach your target audience."
 },
 {
     icon: IoIosColorFilter,
     title: "Graphics Design",
+    link: 'graphicsDesign',
     content: "Being the bedrock of the Koloz project, We create unique digital designs for brands, giving them an edge over their competitors with outstanding and compelling designs."
 },
 {
     icon: BiPhotoAlbum,
     title: "Photography",
+    link: 'photography',
     content: " Memory in a frame. Koloz helps you capture unforgettable moments. We provide photo shoots at both studio and memorable locations, wedding shoots and sundry."
 },
 {
     icon: BiNews,
     title: "Content Writing",
+    link: 'contentWriting',
     content: "Our content writers package will help give your page a new feel, making it visually appealing and engaging which is key to customers trust and loyalty."
 }
 ]
